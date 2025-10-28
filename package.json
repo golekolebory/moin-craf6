@@ -1,0 +1,25 @@
+{
+  "name": "minecraft-js",
+  "version": "1.0.0",
+  "description": "A Minecraft-like game built with JavaScript and Three.js.",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "test": "mocha --recursive test/",
+    "dev": "npm start"
+  },
+  "keywords": [
+    "minecraft",
+    "three.js",
+    "javascript",
+    "game",
+    "voxel"
+  ],
+  "author": "AI Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "http-server": "^14.1.1",
+    "mocha": "^10.2.0"
+  }
+}

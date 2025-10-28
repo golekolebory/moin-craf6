@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "src/*": ["src/*"]
+    },
+    "checkJs": true,
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "include": [
+    "src/**/*",
+    "main.js",
+    "test/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
